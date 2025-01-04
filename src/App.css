@@ -373,9 +373,16 @@ ul {
       }
 
       /* media query for about */
-      @media (max-width: 850px) {
+      @media screen and (max-width: 850px) {
         .about {
+          
           flex-direction: column;
+        }
+        .img1{
+         /* flex: 100%; */
+         /* flex-direction: column; */
+          height: 500px;
+          max-width: 100%;
         }
         h1.hidden {
         visibility: hidden; 
