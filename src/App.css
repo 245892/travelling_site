@@ -348,6 +348,9 @@ ul {
       /* media query for navbar */
       @media (max-width: 600px) {
         nav {
+          position: sticky;
+          top: 10; 
+          z-index: 1;
           height: 140px;
         }
         .nav--logo {
@@ -381,7 +384,7 @@ ul {
         .img1{
          /* flex: 100%; */
          /* flex-direction: column; */
-          height: 500px;
+          height: auto;
           max-width: 100%;
         }
         h1.hidden {
@@ -403,15 +406,25 @@ ul {
       
       /* media query for places */
      @media (max-width: 750px) {
-      .flex-container {
-        flex-direction: column;
-      }
-      .flex-container1 {
+      .flex-container{
         flex-direction: column; 
-        margin-left: 0px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%; 
+       
+        }
+      
+      .flex-container1{
+        flex-direction: column; 
+        
       }
       .flex-container2 {
         flex-direction: column;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%; 
       }
       .flex-container3 {
         flex-direction: column;
@@ -419,8 +432,8 @@ ul {
      /* img {
         flex-basis: 100%;
       } */
-     }
-
+     
+    }
 
 
 
