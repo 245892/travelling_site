@@ -386,9 +386,12 @@ ul {
         }
         .img1{
          /* flex: 100%; */
-         /* flex-direction: column; */
+          flex-direction: column; 
           height: auto;
           max-width: 100%;
+        }
+        div p{
+          margin-right: 37px;
         }
         h1.hidden {
         visibility: hidden; 
