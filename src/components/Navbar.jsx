@@ -4,7 +4,7 @@ import {Link} from 'react-scroll'
 const Navbar = () => {
   return (
     <nav>
-        <img src="../public/travellogo6.jpg" className='nav--logo'/>
+        <img src="/travellogo6.jpg" className='nav--logo'/>
         <ul>
            <li><Link to="header" spy={true}  smooth={true}  offset={50}  duration={1500} >Home</Link></li>
            <li><Link to="about"  spy={true} smooth={true} offset={50} duration={1500} >About</Link></li>
