@@ -359,6 +359,9 @@ ul {
           float: none;
           display: block; 
         }
+        nav ul {
+          margin-left: 60px;
+        }
       }
 
       @media (max-width: 600px) {
