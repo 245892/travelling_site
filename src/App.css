@@ -63,6 +63,7 @@ ul {
     background-image: url(/src/assets/headerpic1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 10px;
   }
   
   /* Increase the font size of the heading */
@@ -376,6 +377,9 @@ ul {
         .header h1{
           font-size: 60px;;
         }
+        .header {
+          margin-bottom: 10px;
+        } 
       }
 
       /* media query for about */
@@ -387,10 +391,11 @@ ul {
         .img1{
          /* flex: 100%; */
           flex-direction: column; 
-          height: auto;
+          height: 420px;
           max-width: 100%;
           margin-right: 0px;
           margin-bottom: 30px;
+        /*  margin-top: 20px; */
         }
         div p{
           margin-right: 40px;
